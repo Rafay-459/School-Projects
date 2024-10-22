@@ -10,7 +10,7 @@ while True:
     user_2_score += random.randint(1, 6)
 
     print(user_1, "'s score: ", user_1_score)
-    print(user_2, "'s score: \n", user_2_score)
+    print(user_2, "'s score: ", user_2_score)
     if user_1_score > 100:
         print(user_1, "won!")
         break
